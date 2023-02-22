@@ -21,3 +21,6 @@ var sumaTresss = (x) =>
     return x + 5;
 }
 sumaTresss (5);
+
+
+// En la terminal colocar "node" y pegar todo lo de arriba para que se muestre el resultado y la diferencia entre console.log y return

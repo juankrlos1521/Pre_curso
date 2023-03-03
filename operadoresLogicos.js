@@ -26,7 +26,7 @@ operadorOr ("h");
 
 function negacion(permiso)
 {
-    if (permiso)
+    if (!permiso)
     console.log ("tienes permiso")
 }
 negacion(true);

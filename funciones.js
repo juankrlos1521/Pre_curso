@@ -10,6 +10,7 @@ sumaTres (5);
 
 var sumaTress = function (x)
 {
+    console.log(x + 4);
     return x + 4;
 }
 sumaTress (5);
@@ -18,6 +19,7 @@ sumaTress (5);
 
 var sumaTresss = (x) => 
 {
+    console.log(x + 5);
     return x + 5;
 }
 sumaTresss (5);

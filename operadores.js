@@ -46,7 +46,7 @@ while (b < 5)
     r++;
     if (r == 3)
         continue;
-   console.log(w += r); // elresultado seria >>> 1,3,7,12  
+   console.log(w += r); // el resultado seria >>> 1,3,7,12  
 }
 
 // concatenacion 

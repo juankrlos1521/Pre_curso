@@ -138,8 +138,29 @@ let arreglo = [];
 let n=0;
 while (arreglo.length < 5) // se ejecuta hasta que la longitud del arreglo sea 5
 {
-    arreglo.push(n = n + 1);
+    arreglo.push(n += 1);
 }
 console.log(arreglo)
 
+//ejercicio de practica
+
+function maxMin (arrys)
+{
+    let mayor = 0;
+    for (let i = 0; i < arrys.length; i++)
+    if (arrys[i]> mayor)
+    {
+        mayor = arrys[i];
+    }
+
+    let menor = 0;
+    for (let i = 0; i < arrys.length; i++)
+    if (arrys[i]< menor+1)
+    {
+        menor = arrys[i];
+    }
+    console.log (menor + mayor);
+    
+}
+maxMin([1,2,3,4,56,7,8,10]);
 

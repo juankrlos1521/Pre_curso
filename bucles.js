@@ -80,9 +80,9 @@ let i = 0;
 
 do
 {
-    i = i + 1;
+    i = i + 5;
     result = result + i;
-}while (i < 5);
+}while (i < 8);
 console.log(result);
 
 
@@ -91,7 +91,7 @@ let a  = 0;
 
 do
 {
-    text += a + "<br>";
+    text += a + "<br>"; // es lo mismo que decir text = text + a + "<br>"
     a++;
 }while (a < 5);
 console.log(text);

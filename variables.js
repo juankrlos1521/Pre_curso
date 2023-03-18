@@ -1,5 +1,5 @@
 // String 
-var bootcamp = 'HENRY';
+var nombre = 'CARLOS';
 
 //numero
 
